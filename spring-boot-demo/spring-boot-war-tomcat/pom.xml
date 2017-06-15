@@ -9,6 +9,10 @@
     <description>Spring Boot Web Thymeleaf Example</description>
     <url>https://www.mkyong.com</url>
     <version>1.0</version>
+  <properties>
+    <!-- The main class to start by executing java -jar -->
+    <start-class>com.mycorp.starter.HelloWorldApplication</start-class>
+</properties>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
